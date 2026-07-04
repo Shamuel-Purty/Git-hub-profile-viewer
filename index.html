@@ -7,11 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <div id="square">
+    <header id="background">
     <h1>GitHub Profile Viewer</h1>
     <p>View anybodys GitHub profiles in real-time </p>
-    <button id="theme-toggle">🌙 Toggle Dark Mode</button> <!--  Dark mode toggle -->
+   <div id="darkmode">
+     <button id="theme-toggle">🌙 Dark Mode</button> <!--  Dark mode toggle -->
+   </div>
   </header>
+ 
 
   <main>
     <section id="search">
@@ -27,9 +31,11 @@
     <section id="repos"></section>
   </main>
 
+
   <footer>
     <p>Powered by GitHub API | <a href="https://github.com/YOUR_USERNAME/github-profile-viewer" target="_blank">GitHub Repo</a></p>
   </footer>
+   </div>
 
   <script src="script.js"></script>
 </body>
