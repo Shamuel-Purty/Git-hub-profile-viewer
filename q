@@ -1,0 +1,12 @@
+user.name=Shamuel-Purty
+user.email=samuelpurty63@gmail.com
+credential.helper=store
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/Shamuel-Purty/Git-hub-profile-viewer.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+branch.main.vscode-merge-base=origin/main
